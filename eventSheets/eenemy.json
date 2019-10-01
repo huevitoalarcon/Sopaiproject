@@ -1,0 +1,30 @@
+{
+	"name": "eEnemy",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "for-each",
+					"objectClass": "System",
+					"sid": 582680557169197,
+					"parameters": {
+						"object": "Enemy1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "move-forward",
+					"objectClass": "Enemy1",
+					"sid": 409163101484326,
+					"parameters": {
+						"distance": "-1"
+					}
+				}
+			],
+			"sid": 542120688857530
+		}
+	],
+	"sid": 417784507218389
+}

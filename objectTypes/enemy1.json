@@ -1,7 +1,7 @@
 {
-	"name": "Sprite2",
+	"name": "Enemy1",
 	"plugin-id": "Sprite",
-	"sid": 351645497121448,
+	"sid": 904356078961446,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -18,11 +18,11 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 4,
+						"imageSpriteId": 6,
 						"duration": 1
 					}
 				],
-				"sid": 935916723044254,
+				"sid": 198828312973438,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,

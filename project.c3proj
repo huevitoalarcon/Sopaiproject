@@ -17,12 +17,36 @@
 	],
 	"uniqueId": "m0xs8ug4lkh",
 	"objectTypes": {
-		"items": [
-			"Sprite",
-			"Sprite2",
-			"Sprite3"
-		],
-		"subfolders": []
+		"items": [],
+		"subfolders": [
+			{
+				"items": [],
+				"subfolders": [
+					{
+						"items": [
+							"Player"
+						],
+						"subfolders": [],
+						"name": "Player"
+					},
+					{
+						"items": [
+							"Enemy1"
+						],
+						"subfolders": [],
+						"name": "Enemies"
+					}
+				],
+				"name": "Characters"
+			},
+			{
+				"items": [
+					"FloorSprite"
+				],
+				"subfolders": [],
+				"name": "Scene"
+			}
+		]
 	},
 	"autosaveData": null,
 	"containers": [],
@@ -38,7 +62,9 @@
 	},
 	"eventSheets": {
 		"items": [
-			"Hoja de eventos 1"
+			"eMain",
+			"ePlayer",
+			"eEnemy"
 		],
 		"subfolders": []
 	},

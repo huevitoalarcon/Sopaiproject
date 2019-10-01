@@ -6,7 +6,7 @@
 			"overriden": 0,
 			"instances": [
 				{
-					"type": "Sprite",
+					"type": "FloorSprite",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -18,9 +18,9 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 416,
+						"x": 512,
 						"y": 480,
-						"width": 864,
+						"width": 1088,
 						"height": 64,
 						"originX": 0.5,
 						"originY": 0.5,
@@ -35,7 +35,7 @@
 					}
 				},
 				{
-					"type": "Sprite2",
+					"type": "Player",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -64,7 +64,7 @@
 					}
 				},
 				{
-					"type": "Sprite3",
+					"type": "Enemy1",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -76,7 +76,7 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 800,
+						"x": 608,
 						"y": 416,
 						"width": 64,
 						"height": 64,
@@ -124,5 +124,5 @@
 	"width": 1708,
 	"height": 960,
 	"unboundedScrolling": false,
-	"eventSheet": "Hoja de eventos 1"
+	"eventSheet": "eMain"
 }

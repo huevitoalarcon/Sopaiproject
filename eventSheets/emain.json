@@ -1,0 +1,10 @@
+{
+	"name": "eMain",
+	"events": [
+		{
+			"eventType": "include",
+			"includeSheet": "eEnemy"
+		}
+	],
+	"sid": 720653720015028
+}
